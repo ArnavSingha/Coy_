@@ -1,0 +1,647 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "profile-1",
+      "name": "Maya Lin",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Architecture major who spends way too much time in the laser-cutter lab. Big fan of matcha soft-serve, 35mm film, and late-night philosophical debates.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Architectural Design",
+      "graduationYear": 2026,
+      "distanceMiles": 2,
+      "interests": [
+        "Architecture",
+        "Film Photography",
+        "Matcha",
+        "Museum Crawls",
+        "Indie Pop"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-2",
+      "name": "Liam Chen",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=1000&q=80",
+      "bio": "CS + Philosophy double major. Currently building a synth from scratch. Let me know your top 3 albums of all time or let's hit the bouldering gym.",
+      "college": "UC Berkeley",
+      "city": "Berkeley, CA",
+      "major": "Computer Science & Philosophy",
+      "graduationYear": 2025,
+      "distanceMiles": 14,
+      "interests": [
+        "Bouldering",
+        "Modular Synths",
+        "Vinyl Records",
+        "Chess",
+        "Specialty Coffee"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-3",
+      "name": "Elena Rostova",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Pre-med neuroscience student who survives purely on iced cortados. Tell me your weirdest campus rumor or show me your favorite stargazing spot.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Neurobiology",
+      "graduationYear": 2027,
+      "distanceMiles": 1,
+      "interests": [
+        "Neuroscience",
+        "Stargazing",
+        "Running 10K",
+        "Cello",
+        "Iced Espresso"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-4",
+      "name": "Marcus Vance",
+      "age": 23,
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Freelance graphic designer and film photographer. I know every hidden rooftop terrace on campus. Still convinced 2000s R&B was peak music.",
+      "college": "Columbia University",
+      "city": "New York, NY",
+      "major": "Visual Arts",
+      "graduationYear": 2025,
+      "distanceMiles": 8,
+      "interests": [
+        "Graphic Design",
+        "35mm Film",
+        "R&B Classics",
+        "Thrifting",
+        "Rooftops"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-5",
+      "name": "Aria Sharma",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Literature & creative writing student. Writing a screenplay that takes place in a 24-hour diner. Will challenge you to a Mario Kart grand prix.",
+      "college": "NYU Tisch",
+      "city": "New York, NY",
+      "major": "Dramatic Writing",
+      "graduationYear": 2026,
+      "distanceMiles": 5,
+      "interests": [
+        "Screenwriting",
+        "Mario Kart",
+        "Poetry Slams",
+        "Film Noir",
+        "Diners"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-6",
+      "name": "Julian Rivera",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Bioengineering senior. When I'm not in the lab, I'm roasting single-origin Ethiopian beans or training for a half-marathon. Let's trade Spotify playlists.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Bioengineering",
+      "graduationYear": 2025,
+      "distanceMiles": 3,
+      "interests": [
+        "Coffee Roasting",
+        "Marathon Training",
+        "Indie Rock",
+        "Board Games",
+        "Cooking"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-7",
+      "name": "Chloe Dupont",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Exchange student from Paris studying Art History. Looking for someone who can show me the best late-night taco trucks and vintage thrift stores.",
+      "college": "UCLA",
+      "city": "Los Angeles, CA",
+      "major": "Art History",
+      "graduationYear": 2026,
+      "distanceMiles": 6,
+      "interests": [
+        "Art Galleries",
+        "Taco Crawls",
+        "Thrifting",
+        "French Cinema",
+        "Ceramics"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-8",
+      "name": "Kai Takahashi",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Industrial design + environmental systems. I repair vintage mechanical keyboards and obsess over brutalist architecture. Catch me skateboarding to class.",
+      "college": "UC Berkeley",
+      "city": "Berkeley, CA",
+      "major": "Product Design",
+      "graduationYear": 2026,
+      "distanceMiles": 12,
+      "interests": [
+        "Skateboarding",
+        "Brutalism",
+        "Keyboards",
+        "Lo-Fi Beats",
+        "Analog Tech"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-9",
+      "name": "Zara Al-Mansoor",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Economics & Public Policy. President of the Model UN team. Passionate about green energy policy and finding the crispest croissant in the Bay Area.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Economics & Public Policy",
+      "graduationYear": 2025,
+      "distanceMiles": 2,
+      "interests": [
+        "Model UN",
+        "Bakeries",
+        "Hiking",
+        "Foreign Affairs",
+        "Podcasts"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-10",
+      "name": "Noah Sterling",
+      "age": 24,
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Master's in Robotics. I build autonomous quadcopters by day and play bass guitar in an indie jazz trio by night. Always down for live gig recommendations.",
+      "college": "MIT",
+      "city": "Cambridge, MA",
+      "major": "Mechanical Engineering",
+      "graduationYear": 2025,
+      "distanceMiles": 9,
+      "interests": [
+        "Robotics",
+        "Bass Guitar",
+        "Jazz",
+        "Drones",
+        "Rock Climbing"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-11",
+      "name": "Sophie Zhang",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Cognitive Science sophomore. Obsessed with human-computer interaction, ceramic wheel throwing, and making sourdough with a 4-year-old starter.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Cognitive Science",
+      "graduationYear": 2027,
+      "distanceMiles": 1,
+      "interests": [
+        "Sourdough",
+        "Ceramics",
+        "UX Design",
+        "Farmers Markets",
+        "Matcha"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-12",
+      "name": "Devon Morales",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Film & Media Studies. Working as a student film festival programmer. Ask me about A24 movies or what makes an unskippable movie soundtrack.",
+      "college": "USC School of Cinematic Arts",
+      "city": "Los Angeles, CA",
+      "major": "Film Production",
+      "graduationYear": 2026,
+      "distanceMiles": 7,
+      "interests": [
+        "A24 Cinema",
+        "Soundtracks",
+        "Screenwriting",
+        "Photography",
+        "Surfing"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-13",
+      "name": "Hannah Becker",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Environmental Science senior. Currently conducting field research on coastal kelp forests. If you have a dog, we are already best friends.",
+      "college": "UC Santa Cruz",
+      "city": "Santa Cruz, CA",
+      "major": "Marine Ecology",
+      "graduationYear": 2025,
+      "distanceMiles": 25,
+      "interests": [
+        "Scuba Diving",
+        "Marine Biology",
+        "Dogs",
+        "Camping",
+        "Coastal Hikes"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-14",
+      "name": "Lucas Rossi",
+      "age": 23,
+      "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Architecture graduate student. Constantly documenting mid-century modern homes on 120mm film. Can make a mean bowl of authentic carbonara.",
+      "college": "Harvard GSD",
+      "city": "Cambridge, MA",
+      "major": "Architecture",
+      "graduationYear": 2025,
+      "distanceMiles": 15,
+      "interests": [
+        "Architecture",
+        "Italian Cooking",
+        "Medium Format",
+        "Biking",
+        "Espresso"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-15",
+      "name": "Priya Patel",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Data Science + Computational Biology. Hackathon fanatic, amateur pickleball champ, and connoisseur of spicy street food. What's your go-to karaoke track?",
+      "college": "Georgia Tech",
+      "city": "Atlanta, GA",
+      "major": "Data Science",
+      "graduationYear": 2026,
+      "distanceMiles": 10,
+      "interests": [
+        "Hackathons",
+        "Pickleball",
+        "Karaoke",
+        "Street Food",
+        "Tennis"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-16",
+      "name": "Ethan Wright",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Music production and sound design. Crafting ambient textures and indie beats in my bedroom studio. Let's exchange songs that give you chills.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Music Technology",
+      "graduationYear": 2025,
+      "distanceMiles": 2,
+      "interests": [
+        "Music Production",
+        "Ambient Beats",
+        "Synthwaves",
+        "Vinyl",
+        "Coffee Cupping"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-17",
+      "name": "Camille Moreau",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Philosophy & Political Economy. Spending my weekends reading in quiet corners of green parks or searching for the best vintage Levi's.",
+      "college": "Columbia University",
+      "city": "New York, NY",
+      "major": "Philosophy",
+      "graduationYear": 2027,
+      "distanceMiles": 5,
+      "interests": [
+        "Philosophy",
+        "Vintage Fashion",
+        "Coffee Shops",
+        "Reading",
+        "Modern Art"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-18",
+      "name": "Jordan Taylor",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Aerospace Engineering major. Dreaming of building interplanetary propulsion systems. In reality: trying not to burn my midnight grilled cheese sandwiches.",
+      "college": "University of Michigan",
+      "city": "Ann Arbor, MI",
+      "major": "Aerospace Engineering",
+      "graduationYear": 2026,
+      "distanceMiles": 18,
+      "interests": [
+        "Aerospace",
+        "Astronomy",
+        "Grilled Cheese",
+        "Weightlifting",
+        "Sci-Fi Books"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-19",
+      "name": "Nina Kim",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Applied Math & Finance. In my free time I teach yoga on the quad and collect house plants that I stubbornly refuse to let die.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Applied Mathematics",
+      "graduationYear": 2025,
+      "distanceMiles": 3,
+      "interests": [
+        "Yoga",
+        "Plant Parent",
+        "Pilates",
+        "Calculus Memes",
+        "Matcha Latte"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-20",
+      "name": "Gabriel Silva",
+      "age": 23,
+      "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Journalism student & campus paper editor. Always looking for honest conversations, investigative stories, and late-night ramen runs.",
+      "college": "Northwestern University",
+      "city": "Evanston, IL",
+      "major": "Journalism",
+      "graduationYear": 2025,
+      "distanceMiles": 11,
+      "interests": [
+        "Investigative Journalism",
+        "Ramen",
+        "Photography",
+        "Documentaries",
+        "Cycling"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-21",
+      "name": "Ananya Iyer",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Computer Science & Human-Centered Design. Big believer in technology for social good. Love boba, outdoor volleyball, and acoustic guitar covers.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Computer Science",
+      "graduationYear": 2026,
+      "distanceMiles": 1,
+      "interests": [
+        "Design Systems",
+        "Boba",
+        "Volleyball",
+        "Acoustic Guitar",
+        "Open Source"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-22",
+      "name": "Mateo Fernandez",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Pre-law & History. Fluent in 3 languages, passionate about public defense reform. Can beat anyone at Catan, no trades allowed.",
+      "college": "UT Austin",
+      "city": "Austin, TX",
+      "major": "History & Government",
+      "graduationYear": 2025,
+      "distanceMiles": 8,
+      "interests": [
+        "Settlers of Catan",
+        "Debate",
+        "Live Music",
+        "Tacos",
+        "History"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-23",
+      "name": "Leila Haddad",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Civil Engineering student building sustainable bridges. Big weekend cyclist and amateur landscape painter. Let's watch the sunset from the hills.",
+      "college": "UC Berkeley",
+      "city": "Berkeley, CA",
+      "major": "Civil Engineering",
+      "graduationYear": 2027,
+      "distanceMiles": 13,
+      "interests": [
+        "Cycling",
+        "Landscape Painting",
+        "Sustainability",
+        "Bridges",
+        "Sunsets"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-24",
+      "name": "Oscar Wilde-Jones",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Theater arts and English literature. Directing an experimental Shakespeare play this semester. Looking for someone with dry wit and good tea recommendations.",
+      "college": "Yale University",
+      "city": "New Haven, CT",
+      "major": "Theater Studies",
+      "graduationYear": 2025,
+      "distanceMiles": 20,
+      "interests": [
+        "Theater",
+        "Shakespeare",
+        "Herbal Tea",
+        "British Comedy",
+        "Banquets"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-25",
+      "name": "Kira Varma",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Product Management & Psychology. Creating playful social products. Big fan of sunset beach bonfires, polaroid cameras, and matcha soft serve.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Symbolic Systems",
+      "graduationYear": 2026,
+      "distanceMiles": 2,
+      "interests": [
+        "Product Strategy",
+        "Beach Bonfires",
+        "Polaroids",
+        "Bouldering",
+        "Psychology"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-26",
+      "name": "Samir Kulkarni",
+      "age": 23,
+      "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Master's student in AI ethics. When not thinking about machine consciousness, I'm cooking giant pots of homemade biryani for my roommates.",
+      "college": "Carnegie Mellon",
+      "city": "Pittsburgh, PA",
+      "major": "AI & Society",
+      "graduationYear": 2025,
+      "distanceMiles": 16,
+      "interests": [
+        "AI Ethics",
+        "Cooking Biryani",
+        "Podcasts",
+        "Badminton",
+        "Philosophy"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-27",
+      "name": "Tessa Vance",
+      "age": 20,
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Marine Biology sophomore. If I'm not in the tide pools, I'm probably listening to Fleetwood Mac on loop or thrift-shopping for vintage sweaters.",
+      "college": "UCSB",
+      "city": "Santa Barbara, CA",
+      "major": "Marine Biology",
+      "graduationYear": 2027,
+      "distanceMiles": 22,
+      "interests": [
+        "Fleetwood Mac",
+        "Tide Pools",
+        "Ocean Conservation",
+        "Sweaters",
+        "Surfing"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-28",
+      "name": "Felix Moreau",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Comparative Literature & Film. Always carries a paperback and a notebook. Ready to debate whether the book is always better than the movie.",
+      "college": "Brown University",
+      "city": "Providence, RI",
+      "major": "Comparative Literature",
+      "graduationYear": 2026,
+      "distanceMiles": 19,
+      "interests": [
+        "Literature",
+        "Cinema",
+        "Espresso",
+        "Bookstores",
+        "Museums"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-29",
+      "name": "Zoe Martinez",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Mechanical engineering student who builds custom track bikes. Weekends spent on long rides through the coastal hills and searching for great bakeries.",
+      "college": "Cal Poly SLO",
+      "city": "San Luis Obispo, CA",
+      "major": "Mechanical Engineering",
+      "graduationYear": 2025,
+      "distanceMiles": 28,
+      "interests": [
+        "Cycling",
+        "Bikes",
+        "Bakeries",
+        "Hill Climbs",
+        "Coffee"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-30",
+      "name": "Dante Alva",
+      "age": 23,
+      "photo": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Architecture and urban planning. Passionate about pedestrianized cities, European trains, and espresso tonic. Show me your city's best hidden courtyard.",
+      "college": "MIT",
+      "city": "Cambridge, MA",
+      "major": "Urban Studies",
+      "graduationYear": 2025,
+      "distanceMiles": 14,
+      "interests": [
+        "Urban Planning",
+        "Transit",
+        "Espresso",
+        "Sketches",
+        "Photography"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "profile-31",
+      "name": "Rhea Sen",
+      "age": 21,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Cognitive Neuroscience & AI. Passionate about how music affects brainwaves. In love with dark chocolate, indie film festivals, and acoustic open-mic nights.",
+      "college": "Stanford University",
+      "city": "Palo Alto, CA",
+      "major": "Neuroscience",
+      "graduationYear": 2026,
+      "distanceMiles": 2,
+      "interests": [
+        "Neuroscience",
+        "Indie Cinema",
+        "Dark Chocolate",
+        "Open Mics",
+        "Piano"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "profile-32",
+      "name": "Owen Campbell",
+      "age": 22,
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=80",
+      "bio": "Physics senior exploring quantum optics. When not in the optics cleanroom, I'm playing ultimate frisbee or trying to bake the perfect Neapolitan pizza.",
+      "college": "UC Berkeley",
+      "city": "Berkeley, CA",
+      "major": "Physics",
+      "graduationYear": 2025,
+      "distanceMiles": 12,
+      "interests": [
+        "Quantum Physics",
+        "Pizza Making",
+        "Ultimate Frisbee",
+        "Optics",
+        "Hiking"
+      ],
+      "hasLikedUser": false
+    }
+  ],
+  "swipes": {},
+  "matches": []
+}
