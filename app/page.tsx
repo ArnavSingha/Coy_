@@ -114,10 +114,10 @@ export default function CoyDiscoverApp() {
   };
 
   return (
-    <main className="w-full max-w-md mx-auto min-h-screen h-[100dvh] flex flex-col bg-[#0f1117] text-white shadow-2xl relative overflow-hidden select-none">
+    <main className="w-full max-w-[480px] mx-auto min-h-screen h-[100dvh] flex flex-col bg-white border-x-2 border-[#15121d] shadow-[0_0_50px_rgba(21,18,29,0.08)] relative overflow-hidden select-none">
       {/* Toast Notification */}
       {toastMessage && (
-        <div className="absolute top-16 inset-x-6 z-50 py-2.5 px-4 rounded-xl bg-zinc-800/95 border border-white/10 text-xs text-white text-center shadow-xl animate-fade-in pointer-events-none">
+        <div className="absolute top-16 inset-x-6 z-50 py-2.5 px-4 rounded-2xl bg-[#15121d] text-white border-2 border-[#15121d] shadow-[3px_3px_0_#ff3d81] text-xs font-bold text-center animate-fade-in pointer-events-none">
           {toastMessage}
         </div>
       )}
@@ -132,7 +132,7 @@ export default function CoyDiscoverApp() {
       />
 
       {/* Main Tab Content */}
-      <section className="flex-1 overflow-hidden relative pb-16">
+      <section className="flex-1 overflow-hidden relative pb-16 bg-[#faf9fc]">
         {activeTab === 'home' && (
           <HomeTab onGoToDiscover={() => setActiveTab('discover')} />
         )}

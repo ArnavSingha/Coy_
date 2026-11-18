@@ -15,55 +15,67 @@ export const TabBar: React.FC<TabBarProps> = ({
   matchesCount,
 }) => {
   return (
-    <nav className="w-full max-w-md mx-auto fixed bottom-0 left-0 right-0 z-30 px-6 py-2 bg-[#0f1117]/95 backdrop-blur-lg border-t border-white/10 flex items-center justify-around shadow-2xl">
+    <nav className="w-full max-w-[480px] mx-auto fixed bottom-0 left-0 right-0 z-30 px-6 py-2.5 bg-white border-t-2 border-[#15121d] flex items-center justify-around shadow-[0_-4px_10px_rgba(21,18,29,0.04)]">
       {/* Home tab (Placeholder) */}
       <button
         onClick={() => setActiveTab('home')}
-        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-xl transition-all ${
+        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition-all ${
           activeTab === 'home'
-            ? 'text-white'
-            : 'text-zinc-500 hover:text-zinc-300'
+            ? 'text-[#15121d] font-bold'
+            : 'text-[#6d6979] hover:text-[#15121d]'
         }`}
       >
-        <div className={`p-1.5 rounded-full transition-transform ${activeTab === 'home' ? 'scale-110 bg-white/10' : ''}`}>
+        <div className={`p-1.5 rounded-xl transition-all ${
+          activeTab === 'home' 
+            ? 'bg-[#f6f4fa] border-2 border-[#15121d] shadow-[2px_2px_0_#15121d]' 
+            : 'border-2 border-transparent'
+        }`}>
           <Home className="w-5 h-5" />
         </div>
-        <span className="text-[11px] font-medium tracking-wide">Home</span>
+        <span className="text-[11px] tracking-tight">Home</span>
       </button>
 
       {/* Discover tab (Main feature) */}
       <button
         onClick={() => setActiveTab('discover')}
-        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-xl transition-all ${
+        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition-all ${
           activeTab === 'discover'
-            ? 'text-[#f25f4c]'
-            : 'text-zinc-500 hover:text-zinc-300'
+            ? 'text-[#15121d] font-bold'
+            : 'text-[#6d6979] hover:text-[#15121d]'
         }`}
       >
-        <div className={`p-1.5 rounded-full transition-transform ${activeTab === 'discover' ? 'scale-110 bg-[#f25f4c]/15 text-[#f25f4c]' : ''}`}>
+        <div className={`p-1.5 rounded-xl transition-all ${
+          activeTab === 'discover' 
+            ? 'bg-[#e7e0ff] border-2 border-[#15121d] shadow-[2px_2px_0_#15121d]' 
+            : 'border-2 border-transparent'
+        }`}>
           <Compass className="w-5 h-5" />
         </div>
-        <span className="text-[11px] font-medium tracking-wide">Discover</span>
+        <span className="text-[11px] tracking-tight">Discover</span>
       </button>
 
       {/* Matches tab */}
       <button
         onClick={() => setActiveTab('matches')}
-        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-xl transition-all relative ${
+        className={`flex flex-col items-center gap-1 py-1 px-4 rounded-2xl transition-all relative ${
           activeTab === 'matches'
-            ? 'text-[#f25f4c]'
-            : 'text-zinc-500 hover:text-zinc-300'
+            ? 'text-[#15121d] font-bold'
+            : 'text-[#6d6979] hover:text-[#15121d]'
         }`}
       >
-        <div className={`p-1.5 rounded-full transition-transform relative ${activeTab === 'matches' ? 'scale-110 bg-[#f25f4c]/15 text-[#f25f4c]' : ''}`}>
-          <Heart className={`w-5 h-5 ${activeTab === 'matches' ? 'fill-current' : ''}`} />
+        <div className={`p-1.5 rounded-xl transition-all relative ${
+          activeTab === 'matches' 
+            ? 'bg-[#ffe4ef] border-2 border-[#15121d] shadow-[2px_2px_0_#15121d]' 
+            : 'border-2 border-transparent'
+        }`}>
+          <Heart className={`w-5 h-5 ${activeTab === 'matches' ? 'fill-[#ff3d81] text-[#ff3d81]' : ''}`} />
           {matchesCount > 0 && (
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#f25f4c] text-white text-[9px] font-bold rounded-full flex items-center justify-center animate-pulse">
+            <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 bg-[#ff3d81] text-white text-[9px] font-black rounded-full border border-[#15121d] shadow-[1px_1px_0_#15121d]">
               {matchesCount}
             </span>
           )}
         </div>
-        <span className="text-[11px] font-medium tracking-wide">Matches</span>
+        <span className="text-[11px] tracking-tight">Matches</span>
       </button>
     </nav>
   );

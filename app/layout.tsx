@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Coy Discover - Mutual Crush Discovery',
-  description: 'Double-blind crush discovery for college students. Swipe right to like, left to pass. Mutual reveals only.',
+  title: 'Coy — Discover',
+  description: 'Find out if your crush likes you back. If they don\'t, nobody ever knows.',
 };
 
 export const viewport: Viewport = {
@@ -11,6 +11,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
+  themeColor: '#FFFFFF',
+  colorScheme: 'light',
 };
 
 export default function RootLayout({
@@ -19,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-[#0c0d12] text-zinc-100 min-h-screen flex flex-col items-center justify-start antialiased selection:bg-rose-500 selection:text-white">
+    <html lang="en">
+      <body className="bg-[#f2eff7] text-[#15121d] min-h-screen flex flex-col items-center justify-start antialiased selection:bg-[#ff3d81] selection:text-white">
         {children}
       </body>
     </html>

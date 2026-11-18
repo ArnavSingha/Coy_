@@ -10,47 +10,35 @@ module.exports = {
     extend: {
       colors: {
         coy: {
-          50: '#fbf9f8',
-          100: '#f6f1ee',
-          200: '#eddcd4',
-          300: '#e1beaf',
-          400: '#d09780',
-          500: '#c2795c',
-          600: '#b46144',
-          700: '#964d36',
-          800: '#7c4130',
-          900: '#67382c',
-          950: '#381b15',
+          bg: '#ffffff',
+          soft: '#f6f4fa',
+          line: '#ece9f2',
+          text: '#15121d',
+          muted: '#6d6979',
+          pink: '#ff3d81',
+          'pink-strong': '#d81e63',
+          'pink-soft': '#ffe4ef',
+          yellow: '#ffe45c',
+          lilac: '#e7e0ff',
+          mint: '#cbf4e0',
+          sky: '#d7ecff',
+          peach: '#ffe1cf',
+          danger: '#d92d3a',
+          ok: '#0e8f48',
         },
-        roseGold: {
-          500: '#E07A5F',
-        },
-        coral: {
-          500: '#F25F4C',
-        }
       },
       fontFamily: {
-        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        sans: ['"Bricolage Grotesque"', '"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
       },
       boxShadow: {
-        'card': '0 10px 30px -10px rgba(0, 0, 0, 0.15), 0 4px 6px -4px rgba(0, 0, 0, 0.1)',
-        'card-hover': '0 20px 40px -15px rgba(0, 0, 0, 0.25)',
+        'coy-pop': '3px 3px 0 #15121d',
+        'coy-pop-sm': '2px 2px 0 #15121d',
+        'coy-pop-lg': '5px 5px 0 #15121d',
+        'coy-pop-xl': '7px 7px 0 #15121d',
       },
-      keyframes: {
-        pulseSubtle: {
-          '0%, 100%': { opacity: '1', transform: 'scale(1)' },
-          '50%': { opacity: '0.85', transform: 'scale(0.98)' },
-        },
-        popIn: {
-          '0%': { transform: 'scale(0.8)', opacity: '0' },
-          '70%': { transform: 'scale(1.05)' },
-          '100%': { transform: 'scale(1)', opacity: '1' },
-        }
+      borderWidth: {
+        '3': '3px',
       },
-      animation: {
-        'pulse-subtle': 'pulseSubtle 2.5s infinite ease-in-out',
-        'pop-in': 'popIn 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards',
-      }
     },
   },
   plugins: [],
